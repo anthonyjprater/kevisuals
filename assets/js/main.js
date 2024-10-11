@@ -206,8 +206,8 @@ const fetchFlickrPhotosetPhotos = async (
 
 // Usage example:
 const photosetId = '72177720321080892'
-const userId = '197883411@N06'
-const apiKey = 'd70676d32f5a89e37002cfa8fd23fd19'
+const userId = ''
+const apiKey = ''
 
 fetchFlickrPhotosetPhotos(photosetId, userId, apiKey)
   .then((result) => {
