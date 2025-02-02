@@ -511,9 +511,34 @@ h1 span
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: contrast(200%) grayscale(50) opacity(40%);
+    filter: contrast(200%) grayscale(50) opacity(40%) blur(0px);
 }
 
+.loading-text {
+    font-size: 50px;
+    /* color: #fff; */
+}
+
+.loading-text {
+    animation-duration: 1250ms;
+    animation-name: slide-in;
+  }
+  
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+      color: #191970;
+      text-shadow: 2px 2px 2px #fff;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+      color: #fff;
+      text-shadow: 2px 2px 2px #191970;
+    }
+  }
 
 /** 6. PORTFOLIO
 *******************************************************************/
